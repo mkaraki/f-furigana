@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>ふりがな作成</title>
+</head>
+<body>
+	<h1>ふりがな作成</h1>
+	<p>英数字にふりがなをつけるWebアプリ</p>
+	<form onsubmit="return false">
+		<label for="orig">原文</label>
+		<input type="text" id="orig" />
+		<button type="submit" id="submit">作成</button>
+		<hr />
+		<label for="res">結果</label>
+		<textarea id="res" readonly></textarea>
+	</form>
+	<script src="index.js"></script>
+</body>
+</html>
